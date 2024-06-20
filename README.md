@@ -73,3 +73,86 @@ public class Main {
 ## Class
 
     Class is a Blue print to create an Object ,It defines the attributes (States) and methods (behaviors) 
+
+# 4 PILLERS OF OOPS
+
+## 1. Inheritance
+
+Inheritance is a mechanism that allows a child class to inherit methods and attributes from a parent class. There are four types of inheritance:
+1. **Single Inheritance**: A class inherits from one parent class.
+2. **Multilevel Inheritance**: A class is derived from another class, which is also derived from another class.
+3. **Hierarchical Inheritance**: Multiple classes inherit from a single superclass.
+4. **Multiple Inheritance**: A class can inherit from multiple classes. (Note: Java does not support multiple inheritance with classes directly but can achieve it with interfaces.)
+
+### Example
+
+```java
+ package com.example;
+
+public class Car {
+
+    void starting(String brand) {
+        System.out.println(brand + " starting");
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+}
+
+
+public class Electric extends Car {
+
+    public static void main(String[] args) {
+        Electric tesla = new Electric();
+        tesla.starting("Tesla");
+    }
+}
+```
+## 2.Encapsulation
+Binding of Data/variable to the method in the same class is called encapsulation ,So no one can access the data/variable from out side of the class.To access the variable need to access through Getter and Setter methods ,Its help to data hiding
+
+ex:
+```java
+  package com.example;
+
+class Human {
+    private String name;
+    private int age;
+
+    // Setter methods
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Getter methods
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+public class Demo {
+    public static void main(String[] args) {
+        Human person1 = new Human();
+        person1.setName("Aswanth");
+        person1.setAge(26);
+        System.out.println("My Name is " + person1.getName() + " I am " + person1.getAge() + " years old");
+    }
+}
+```
+### "this" Keyword
+ this is the keyword that represent current object 
+
+## 3.Polymorphism
+Polymorphism that allows methods to process objects differently based on their data type or class
+There are two main types of polymorphism in Java
+
+
