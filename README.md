@@ -67,3 +67,7 @@ public class Main {
         copiedDog.bark(); // Output: Buddy is barking
     }
 }
+
+##Class
+
+    Class is a Blue print to create an Object ,It defines the attributes (States) and methods (behaviors) 
