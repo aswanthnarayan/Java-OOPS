@@ -1,8 +1,8 @@
-# Object
+## Object
 
 An object is a real-world entity that has both state and behavior. State refers to the data or attributes of the object, while behavior refers to the methods or functions it can perform.
 
-## Constructor
+### Constructor
 
 A constructor is a special method used to initialize an object. It has the same name as the class and does not have a return type. There are two types of constructors:
 
@@ -10,7 +10,7 @@ A constructor is a special method used to initialize an object. It has the same 
    
 - **Parameterized Constructor**: Allows you to specify initial values for the object's attributes during object creation.
 
-## Copy Constructor
+### Copy Constructor
 
 A copy constructor is a special type of parameterized constructor that takes another object of the same class as a parameter and initializes the new object with the values of the provided object.
 
