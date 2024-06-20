@@ -70,6 +70,6 @@ public class Main {
 ```
 
 
-##Class
+## Class
 
     Class is a Blue print to create an Object ,It defines the attributes (States) and methods (behaviors) 
