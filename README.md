@@ -111,7 +111,8 @@ public class Electric extends Car {
 ```
 ## 2.Encapsulation
 Binding of Data/variable to the method in the same class is called encapsulation ,So no one can access the data/variable from out side of the class.To access the variable need to access through Getter and Setter methods ,Its help to data hiding
-example:
+
+#### example:
 
 ```java
   package com.example;
@@ -164,7 +165,8 @@ There are two main types of polymorphism in Java
 
 ### Method Overloading
 This occurs when multiple methods in the same class have the same name but different parameters (different type, number, or both).
-example:
+
+#### example:
 
 ```java
 class MathUtils {
@@ -194,9 +196,9 @@ public class Main {
 }
 ```
 ###  2.Method Overriding:
-This occurs when a subclass has a method with the same name, return type, and parameters as a method in its superclass. The method in the 
-        subclass overrides the method in the superclass.
-example:
+This occurs when a subclass has a method with the same name, return type, and parameters as a method in its superclass. The method in the subclass overrides the method in the superclass.
+
+#### example:
 
 ```java
 
@@ -236,9 +238,9 @@ Abstraction is the concept of hiding the complex implementation details of a sys
 Abstraction in Java can be achieved using:
 
 ### Abstract Classes
-An abstract class is a class that cannot be instantiated on its own and may contain abstract methods, which are methods without a body.
-        Subclasses of the abstract class must provide implementations for the abstract methods.
-example:
+An abstract class is a class that cannot be instantiated on its own and may contain abstract methods, which are methods without a body.Subclasses of the abstract class must provide implementations for the abstract methods.
+
+#### example:
 
 ```java
    abstract class Vehicle {
@@ -269,7 +271,8 @@ public class Main {
         
 ### 2.interface
 An interface in Java is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods,and nested types. Interfaces cannot contain instance fields or method implementations. A class that implements an interface must provide implementationsfor all the methods declared in the interface.
-example:
+
+#### example:
 
 ```java
               interface Animal {
@@ -315,7 +318,9 @@ Access modifiers in Java are keywords used to set the accessibility or visibilit
 
 ### Exception handling in Java
 Exception handling is handle unexpected errors using try catch method
-example:
+
+#### example:
+
 ```java
 try {
     // Code that may throw an exception
